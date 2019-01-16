@@ -97,12 +97,15 @@ export default {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-auto-rows: minmax(50px, auto);
+
     }
 
     .display {
         grid-column: 1 / 5;
         background-color: #333;
         color: white;
+        border-radius: 10px;
+        padding-top: 15px;
     }
 
     .zero {
@@ -113,6 +116,8 @@ export default {
         background-color: #eee;
         border: 1px solid #999;
         text-align: center;
+        cursor: pointer;
+        border-radius: 10px;
     }
 
     .operator {

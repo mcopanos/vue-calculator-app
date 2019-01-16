@@ -11,7 +11,7 @@ export default {
     data() {
         return {
             msgOne: 'Welcome to my calculator app!!',
-            msgTwo: 'This app was created using Vue.js'
+            msgTwo: 'This app was created using Vue.js and CSS grid'
         }
     }
 }
@@ -19,7 +19,7 @@ export default {
 
 <style scoped>
     .header {
-        background-color: #111ccc;
+        background-color: #1f72cc;
         color: aqua;
     }
 </style>
